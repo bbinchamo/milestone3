@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the header section */
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* Styling for the navigation bar */
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C4C5BA;
+}
+
+/* Styling for the header title */
+nav div h1{
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+/* Styling for the navigation links */
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+/* Styling for the list items in the navigation */
+.nav-links ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+/* Styling for the anchor tags in the navigation */
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* Styling for the body */
+body{
+    background-color: #E4E4DE;
+}
+
+/* Styling for input fields, select boxes, and textareas */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+#Email{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* Styling for the submit button */
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Styling for the container of the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Styling for the contact form section */
+.contact_Form{
+    font-size: 12px;
+    text-align: bottom left;
+}
