@@ -49,6 +49,11 @@ nav div h1{
     font-size: 15px;
 }
 
+.nav-links ul li a:hover{
+    color:blueviolet
+}
+
+
 /* Styling for the body */
 body{
     background-color: #E4E4DE;
